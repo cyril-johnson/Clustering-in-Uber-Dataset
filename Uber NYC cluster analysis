@@ -1,0 +1,18 @@
+library(lubridate) #for date modifications
+library(ggmap)
+library(plotly)
+library(VIM) #for aggr
+library(dplyr) #for joins, counts 
+library(DT) #for datatable
+library(dbscan)
+library(ggplot2)
+
+
+							# DATA FOR 2014 
+
+apr14 <- read.csv("/Users/Cyril/Desktop/DataAnalysis/uber-pickups-NYCity/uber-raw-data-apr14.csv")
+may14 <- read.csv("/Users/Cyril/Desktop/DataAnalysis/uber-pickups-NYCity/uber-raw-data-may14.csv")
+jun14 <- read.csv("/Users/Cyril/Desktop/DataAnalysis/uber-pickups-NYCity/uber-raw-data-jun14.csv")
+jul14 <- read.csv("/Users/Cyril/Desktop/DataAnalysis/uber-pickups-NYCity/uber-raw-data-jul14.csv")
+aug14 <- read.csv("/Users/Cyril/Desktop/DataAnalysis/uber-pickups-NYCity/uber-raw-data-aug14.csv")
+sep14 <- read.csv("/Users/Cyril/Desktop/DataAnalysis/uber-pickups-NYCity/uber-raw-data-sep14.csv")
